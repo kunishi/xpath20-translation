@@ -1,0 +1,29 @@
+include "xmlspec.rnc" {
+   local.ref.class = errorref
+   attlist.nt &= def-req.att, simple-xlink.att
+   author = element author { attlist.author, name, affiliation?, email?, loc? }
+   attlist.xspecref &= ref-req.att, spec.att
+   rhs = element rhs { attlist.rhs, (text | phrase | nt | xnt | com | br)* }
+   attlist.xnt &= xnt-spec.att?, ref-req.att?, simple-xlink.att?, href-req.att?
+   local.list.class = error-list
+   local.emph.class = langname
+}
+
+errorref = element errorref { attlist.errorref, empty }
+attlist.errorref =
+   attribute class { "ST" | "DY" | "TY" },
+   attribute code { xsd:integer }
+spec.att = attribute spec { "DM" | "FS" | "FO" | "XP" | "XQ" | "XS2" }
+br = element br { empty }
+xnt-spec.att = attribute spec { xsd:string }
+error-list = element error-list { error+ }
+error = element error {
+   attribute spec { "XP" | "XQ" },
+   attribute role { "xpath" | "xquery" }?,
+   attribute code { xsd:integer },
+   attribute class { "ST" | "DY" | "TY" },
+   attribute type { "static" | "dynamic" | "type" },
+   p
+}
+
+langname = element langname { empty }

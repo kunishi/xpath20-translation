@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="xquery-semantics.xml" uri="xquery-semantics.rnc"/>
+  <uri resource="xpath20-xquery.xml" uri="xpath20.rnc"/>
+  <uri resource="xpath20.xml" uri="xpath20.rnc"/>
+  <uri resource="xpath20.xsl" typeId="XSLT"/>
+  <uri resource="xpath20.html" typeId="XHTML"/>
+</locatingRules>

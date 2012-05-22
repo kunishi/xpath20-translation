@@ -1,0 +1,14 @@
+include "xmlspec.rnc" {
+   attlist.nt &= simple-xlink.att
+   rhs = element rhs { attlist.rhs, (text | phrase | nt | xnt | com | br)* }
+   local.div.mix = sm.class
+}
+
+br = element br { empty }
+
+sm.class = smnotation
+
+smnotation = element smnotation { (p | display)* }
+
+display = element display { (clause | multiclause)* }
+clause = element clause { expression }

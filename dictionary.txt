@@ -1,0 +1,84 @@
+address				指し示す
+argument			引数
+aspect				面
+atomic type			原子型
+atomic value			原子値
+axis   				軸
+binding				束縛
+built-in			組み込み
+candidate recommendation	勧告候補
+cast	  			型変換
+character set encoding		文字符号化方式
+codepoint     			コード位置
+collation			照合順序
+collection    			コレクション
+component			構成要素
+conform	  			適合する、従う
+consistency			一貫性
+constrain			制限される
+constraint			制約、制限
+construct			構成する
+context				文脈
+data type			データ型
+describe			記述する
+deprecated			推奨されない
+distinctive			特徴的な
+data model			データモデル
+embed				埋め込む
+empty sequence			空列
+expanded QName			展開済QName
+expression			式
+filter expression		選別式
+focus				焦点
+function			関数
+grammar				文法
+host language			ホスト言語
+implementation			実装
+in-scope namespace		有向範囲内名前空間
+indicate			表す
+inner focus			内部焦点
+instance			インスタンス
+item				項目
+keyword				キーワード
+lexical				字句的
+literal				リテラル
+local name			局所名
+match				照合
+name				名前
+namespace prefix		名前空間接頭辞
+navigate			巡航
+nest				入れ子
+node				節点
+node identity			節点識別性
+node kind			節点の種類
+non-normative			規範でない、参考である
+normalize			正規化
+normative			規範である
+notation			記述、記法
+operand				演算数
+operator			演算子
+optional			省略可能な
+ordered				順序付き
+outer focus			外部焦点
+path				経路
+path expression			経路式
+production			生成規則
+quote				引用符
+raise				発生する、引き起こす
+reference			参照
+scope				有効範囲
+semantics			意味
+sequence			列
+significant			意味を持つ
+singleton			単一値列
+specification			仕様書
+specify				規定する、指定する
+statically known namespaces	静的既知名前空間
+string value			文字列値
+support				支援する
+symbol				記号
+syntax				構文
+term				用語
+typed value			型付けされた値
+validate			妥当性検証
+value				値
